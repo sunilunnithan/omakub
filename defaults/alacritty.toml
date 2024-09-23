@@ -2,13 +2,14 @@
 TERM = "screen-256color"
 
 [shell]
-program = "tmux"
+program = "zsh"
 
 [window]
 padding.x = 16
 padding.y = 14
 decorations = "None"
 opacity = 0.98
+startup_mode = "Maximized"
 
 [keyboard]
 bindings = [
